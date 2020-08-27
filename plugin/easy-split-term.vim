@@ -1,3 +1,8 @@
+if exists('g:est_loaded')
+    finish
+endif
+let g:est_loaded = 1
+
 command SplitTermUp :call luaeval('require("easy-split-term").split_term_up()')
 command SplitTermLeft :call luaeval('require("easy-split-term").split_term_left()')
 command SplitTermDown :call luaeval('require("easy-split-term").split_term_down()')
