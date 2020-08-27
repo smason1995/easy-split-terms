@@ -6,3 +6,5 @@ command Stu SplitTermUp
 command Stl SplitTermLeft
 command Std SplitTermDown
 command Str SplitTermRight
+
+tnoremap <ESC> <C-\><C-n>
