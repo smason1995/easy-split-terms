@@ -19,6 +19,3 @@ Std
     See SplitTermDown
 Str
     See SplitTermRight
-
-The plugin also changes the keymapping to exits Insert Mode in the terminal buffer from
-<C-\><C-n> to <ESC>
